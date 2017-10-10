@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Local Weather App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <header class="text-center">
+                    <h1>The Local Weather</h1>
+                </header>
+            </div>
+            <div class="text-center status">
+                <p><span id="city">Sasaram</span> <span id="country"></span></p>
+                <p><span id="temp"></span><span class="temp" id="tempunit"></span></p>
+                <p id="desc"></p>
+
+                <p>
+                    <span id="wind-speed"></span>
+                    <span id="humidity"></span>
+                </p>
+            </div>
+            <div class="text-center all-icon">
+                <span>
+            <i class="wi wi-cloud clouds hide" style="font-size:111px"></i>
+        </span>
+                <span>
+            <i class="wi wi-rain rain hide" style="font-size:111px"></i>
+        </span>
+                <span>
+            <i class="wi wi-snow snow hide" style="font-size:111px"></i>
+        </span>
+                <span>
+            <i class="wi wi-clear clear hide" style="font-size:111px"></i>
+        </span>
+                <span>
+            <i class="wi wi-thunderstorm thunderstorm hide" style="font-size:111px"></i>
+        </span>
+                <span>
+            <i class="wi wi-sprinkle drizzle hide" style="font-size:111px"></i>
+        </span>
+                <i class="wi wi-wind" id="wind_deg" style="font-size:111px"></i>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
